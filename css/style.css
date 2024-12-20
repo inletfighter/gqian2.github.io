@@ -306,8 +306,8 @@ header.scrolled .logo{
 
 .showcase-image .person{
     position: absolute;
-    width: 96%;
-    height:73%;
+    width: 86%;
+    height:80%;
     bottom: 50px;
     left: 50%;
     transform: translate(-50%);
