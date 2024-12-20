@@ -103,6 +103,11 @@ function dataPopup() {
     popup.classList.toggle("show");
 }
 
+function tictactoePopup() {
+    var popup = document.getElementById("tictactoePopup");
+    popup.classList.toggle("show");
+}
+
 
 /*----------------Change Active Link - scroll------------------*/
 
