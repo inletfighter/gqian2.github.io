@@ -155,7 +155,7 @@
                         </li>
                     </ul>
 
-                    <i class="uil uil-moon toggle-btn"></i>
+                    <!-- <i class="uil uil-moon toggle-btn"></i> -->
 
                 </div>
 
@@ -196,6 +196,7 @@
                             <div class="images">
                                 <img class="showImage" src="./assets/ITWeb2.JPG" alt="">
                                 <img src="./assets/TourWeb2.JPG" alt="">
+                                <img src="./assets/tictactoe.JPG" alt="">
                                 <img src="./assets/MiniRes.JPG" alt="">
                                 <img src="./assets/mobileapp3.JPG" alt="">
                                 <img src="./assets/recipe-app-homepage.png" alt="">
@@ -261,6 +262,7 @@
                                     <button class="filter-btn" data-filter="all">All</button>
                                     <button class="filter-btn" data-filter=".javascript">JavaScript</button>
                                     <button class="filter-btn" data-filter=".java">Java</button>
+                                    <button class="filter-btn" data-filter=".c">C</button>
                                     <button class="filter-btn" data-filter=".mobile">Mobile App</button>
                                     <button class="filter-btn" data-filter=".ecommerce">E-commerce</button>
                                     <button class="filter-btn" data-filter=".corporate">Corporate Websites</button>
@@ -337,6 +339,46 @@
                                         <a href="#viewmore" class="btn secondary-btn sm">See More</a>
                                     </div>
                                 </div>
+
+
+                                <!--Tic Tac Toe Game-->
+                                <div class="mix prt-card c">
+                                    <div class="prt-image">
+                                        <div class="img">
+                                            <img src="./assets/tictactoe.jpg" alt="" style="margin-top: 150px;">
+
+                                            <div class="prt-overlay">
+                                                <span class="prt-icon zoom-icon" style="--i: 0s">
+                                                    <i class="uil uil-search-plus"></i>
+                                                </span>
+
+                                                <span class="prt-icon" style="--i: 0.15s">
+                                                    <div class="popup" onclick="tictactoePopup()">
+                                                        <i class="uil uil-ellipsis-h"></i>
+                                                        <span class="popuptext" id="tictactoePopup" style="font-size: 10px;">
+                                                            Tic Tac Toe game done using C includes Machine Learning.
+                                                            <span style="color: rgb(120, 214, 183);">
+                                                                <br>
+                                                                (P vs P, P vs AI)
+                                                            </span>
+                                                        </span>
+                                                    </div>
+                                                </span>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="prt-desc">
+                                        <h3>Tic Tac Toe</h3>
+                                        <a href="./tictactoe.html" class="btn secondary-btn sm">See Game Demo</a>
+                                    </div>
+                                </div>
+                                <!--Tic Tac Toe Game-->
+
+
+
+
 
                                 <div class="mix prt-card javascript">
                                     <div class="prt-image">
@@ -805,6 +847,9 @@
                                 document.getElementById('minijavascript').style.display = 'inline';
                                 document.getElementById('mobileapp').style.display = 'none';
                                 document.getElementById('studentsystem').style.display = 'none';
+                                document.getElementById('ecommerce-sites').style.display = 'none';
+                                document.getElementById('corporate-sites').style.display = 'none';
+                                document.getElementById('datascience').style.display = 'none';
 
                             }
                             else if (e.target.id === "fourth") {
@@ -814,6 +859,9 @@
                                 document.getElementById('minijavascript').style.display = 'none';
                                 document.getElementById('mobileapp').style.display = 'inline';
                                 document.getElementById('studentsystem').style.display = 'none';
+                                document.getElementById('ecommerce-sites').style.display = 'none';
+                                document.getElementById('corporate-sites').style.display = 'none';
+                                document.getElementById('datascience').style.display = 'none';
 
                             }
                             else if (e.target.id === "fifth") {
@@ -823,6 +871,9 @@
                                 document.getElementById('minijavascript').style.display = 'none';
                                 document.getElementById('mobileapp').style.display = 'none';
                                 document.getElementById('studentsystem').style.display = 'inline';
+                                document.getElementById('ecommerce-sites').style.display = 'none';
+                                document.getElementById('corporate-sites').style.display = 'none';
+                                document.getElementById('datascience').style.display = 'none';
 
                             } else if (e.target.id === "six") {
 
